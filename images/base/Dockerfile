@@ -36,4 +36,6 @@ RUN --mount=src=.,dst=/input \
 ENV HOST_CC="gcc" \
     HOST_CXX="g++" \
     HOST_CFLAGS="-O2 -pipe" \
-    HOST_CXXFLAGS="-O2 -pipe"
+    HOST_CXXFLAGS="-O2 -pipe" \
+    OCAMLFIND_LDCONF="ignore" \
+    CAML_LD_LIBRARY_PATH="/usr/lib/ocaml/stublibs:/usr/lib/ocaml"
