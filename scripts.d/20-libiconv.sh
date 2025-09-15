@@ -5,7 +5,7 @@ SCRIPT_MIRROR="https://https.git.savannah.gnu.org/git/libiconv.git"
 SCRIPT_COMMIT="61fbe742a3702e5030f8258ad130a847d6c3e89a"
 
 SCRIPT_REPO2="https://git.savannah.gnu.org/git/gnulib.git"
-SCRIPT_MIRROR2="https://https.git.savannah.gnu.org/git/gnulib.git/"
+SCRIPT_MIRROR2="https://https.git.savannah.gnu.org/git/gnulib.git"
 SCRIPT_COMMIT2="ef6d228c7dba8363ce147450c3c2c3ab95642d4c"
 
 ffbuild_enabled() {
